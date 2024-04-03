@@ -4,7 +4,9 @@ compatibility_date = "2023-12-01"
 # Add Your own DATABASE_URL and JWT_SECRET :
 
 [vars]
+DATABASE_URL=""
 
+JWT_SECRET = ""
 
 # [[kv_namespaces]]
 # binding = "MY_KV_NAMESPACE"
