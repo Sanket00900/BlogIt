@@ -4,7 +4,7 @@ import { Avatar } from "./Avatar";
 export const Appbar = () => {
   return (
     <div>
-      <div className="border-b flex justify-between py-4 px-8">
+      <div className="border-b flex justify-between py-2 px-8">
         <Link to={"/blogs"}>
           <div className="flex flex-col justify-center cursor-pointer">
             BlogIt !

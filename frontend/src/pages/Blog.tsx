@@ -2,6 +2,7 @@ import { useParams } from "react-router-dom";
 import { useBlog } from "../hooks/useBlog";
 import { Appbar } from "../components/Appbar";
 import { Avatar } from "../components/Avatar";
+import Spinner from "../components/Spinner";
 
 export const Blog = () => {
   const { id } = useParams();
@@ -9,7 +10,15 @@ export const Blog = () => {
   //@ts-ignore
   const name = blog.author?.name || "Anonymous";
   if (loading) {
-    return <div>blogs loading...</div>;
+    return (
+      <>
+        <Appbar />
+        <div className="h-screen flex justify-center items-center">
+          {" "}
+          <Spinner />{" "}
+        </div>
+      </>
+    );
   }
 
   return (
