@@ -4,9 +4,9 @@ compatibility_date = "2023-12-01"
 # Add Your own DATABASE_URL and JWT_SECRET :
 
 [vars]
-DATABASE_URL=""
+DATABASE_URL="prisma://accelerate.prisma-data.net/?api_key=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcGlfa2V5IjoiOGUzZTg2YzAtYzhlMy00YzE5LTk2MWQtZTAwZDdiOTZmNTMyIiwidGVuYW50X2lkIjoiYmM3ZmQzN2ZlZjkzMTA0NjA4MWNiZmU2MmVkODQ2ZTY5ODIxNWVlM2Q1NjE0MWZjMDdiOGNmZTg4YmJhOTczNiIsImludGVybmFsX3NlY3JldCI6IjIyNzM4YTdjLTI0NWMtNDBjNC1iOGNiLTU2NDllYWFkMDE0MiJ9.gQw4E4aayKJxEyP6cIVzJcFjSeO3sIkUfsGL6XM6D94"
 
-JWT_SECRET = ""
+JWT_SECRET = "999"
 
 # [[kv_namespaces]]
 # binding = "MY_KV_NAMESPACE"
